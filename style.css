@@ -17,12 +17,16 @@ body {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+  background: #fff;
+}
 /* Styling Boxes */
 
 .box {
   height: 10rem;
   min-width: 10rem;
-  width: 100%;
+  flex-grow: 1;
 }
 
 .one {
