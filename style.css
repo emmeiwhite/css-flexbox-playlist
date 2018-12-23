@@ -20,9 +20,9 @@ body {
 .flex-container {
   display: flex;
   background: #fff;
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
-  height: 30rem;
+  height: 30rem; */
 }
 /* Styling Boxes */
 
@@ -35,15 +35,15 @@ body {
 /* FLEX-GROW is such  a cool property to create grids of any columns */
 .one {
   background: red;
-  /* flex-grow: 2; */
+  flex-grow: 1;
 }
 
 .two {
   background: blue;
-  /* flex-grow: 3; */
+  flex-grow: 3;
 }
 
 .three {
   background: green;
-  /* flex-grow: 1; */
+  flex-grow: 1;
 }
