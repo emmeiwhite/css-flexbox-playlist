@@ -28,22 +28,26 @@ body {
 
 .box {
   height: 10rem;
-  min-width: 10rem;
+  /* min-width: 10rem; */
   /* flex-grow: 1; */
+  width: 32rem;
 }
 
 /* FLEX-GROW is such  a cool property to create grids of any columns */
 .one {
   background: red;
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  flex-shrink: 6;
 }
 
 .two {
   background: blue;
-  flex-grow: 3;
+  /* flex-grow: 3; */
+  flex-shrink: 3;
 }
 
 .three {
   background: green;
   flex-grow: 1;
+  flex-shrink: 1;
 }
