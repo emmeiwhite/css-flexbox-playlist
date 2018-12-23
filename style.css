@@ -23,14 +23,15 @@ body {
   /* justify-content: center;
   align-items: center;
   height: 30rem; */
+  flex-wrap: wrap;
 }
 /* Styling Boxes */
 
 .box {
   height: 10rem;
-  /* min-width: 10rem; */
-  /* flex-grow: 1; */
-  width: 32rem;
+  min-width: 20rem;
+  flex-grow: 1;
+  /* width: 32rem; */
 }
 
 /* FLEX-GROW is such  a cool property to create grids of any columns */
