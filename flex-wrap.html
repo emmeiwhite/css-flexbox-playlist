@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>flex-box | flex-basis</title>
+    <style>
+      /* RESET */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 10px;
+      }
+      .wrapper {
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        background: rgb(201, 184, 184);
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .box {
+        height: 10rem;
+        min-width: 20rem;
+        flex-grow: 1;
+      }
+
+      .one {
+        background: green;
+      }
+
+      .two {
+        background: red;
+      }
+
+      .three {
+        background: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="flex-container">
+        <div class="box one"></div>
+        <div class="box two"></div>
+        <div class="box three"></div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -29,6 +29,7 @@ body {
 
 .box {
   height: 10rem;
+  /* For flex-wrap */
   min-width: 20rem;
   flex-grow: 1;
   /* width: 32rem; */
@@ -37,18 +38,12 @@ body {
 /* FLEX-GROW is such  a cool property to create grids of any columns */
 .one {
   background: red;
-  /* flex-grow: 1; */
-  flex-shrink: 6;
 }
 
 .two {
   background: blue;
-  /* flex-grow: 3; */
-  flex-shrink: 3;
 }
 
 .three {
   background: green;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
