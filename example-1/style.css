@@ -34,6 +34,7 @@ nav a {
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
+  background: orange;
 }
 
 nav a:hover {
@@ -43,7 +44,19 @@ nav a:hover {
 /* flex styles */
 
 @media screen and (min-width: 768px) {
+  /* ul is flex-container for li's */
   nav ul {
     display: flex;
+    /*     
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+  }
+
+  /* li's are flex-items */
+  nav li {
+    /* flex-grow: 1; */
   }
 }
